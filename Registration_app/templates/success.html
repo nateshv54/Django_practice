@@ -1,0 +1,18 @@
+<!-- myapp/templates/myapp/success.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Page</title>
+</head>
+<body>
+    <h2>Success!</h2>
+    <!-- Display the data extracted from the form -->
+    <p>{{ field1 }} Thank you for Registering with us</p>
+    <!-- Redirect to login page on successful registration -->
+    <p>Redirecting to login page...</p>
+    <a href="{% url 'login' %}">click here to login</a>
+</body>
+</html>
